@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    /*background-image: url("https://wallbox.ru/wallpapers/main/201446/2ab8ad30c70b978.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    background-size: cover;*/
+    background: url("https://krot.info/uploads/posts/2021-02/1613680413_8-p-art-fon-yaponiya-9.jpg") no-repeat fixed top center/cover;
+}
+a{
+    text-decoration: none;
+}
+header{
+    position: fixed;
+    width: 100%;
+    opacity: 50%;
+    text-align: center;
+}
+nav a{
+    font-size:  20px;
+    font-weight: bold;
+    padding: 15px;
+}
+header nav ul li{
+    display: inline;
+}
+aside, .ads{
+    width: 20%;
+    float: left;
+}
+.left_sidebar_img{
+    width: 150px;
+}
+main{
+    width: 60%;
+    float: left;
+}
+footer{
+    background-image: url(image/gradient.jpg);
+    clear: both;/*убирает обтикание, а значение both указывает удаление обтикания справа и слева*/
+}
+.scroller{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    padding: 0;
+    line-height: 75px;
+    background-color: bisque;
+    position: fixed;
+    bottom: 10%;
+    left: 10%;
+}
+a:visited{/*:visited-посещенная гиперссылка*/
+    color: orange;
+}
+a:active{/*свойство при зажатии на ссылку поумолчанию красный*/
+    color: green;
+}
+a:hover{
+    color: white;
+    background-color: darkslateblue;
+}
+.container{
+    margin: 0 auto;
+}
+.container>*{
+    background-color: white;
+    padding: 0.4em;
+    border: 1px solid black;
+}
